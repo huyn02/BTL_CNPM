@@ -15,15 +15,15 @@ body {
 /* Image 2338 */
 .image {
     position: absolute;
-    top: 50px;
-    left: 270px;
-    width: 294px;
-    height: 101px;
-    border-radius: 5px;
+    top: 30px;
+    left: 250px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
 }
 
-/* Email 1 */
-.work {
+
+.icon1 {
     position: absolute;
     top: 350px;
     left: 310px;
@@ -60,6 +60,19 @@ body {
     /* neutral-700 */
 }
 
+.text1 {
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    width: 476px;
+    font-family: Arial;
+    /* Heading */
+    font-size: 40px;
+    line-height: 56px;
+    color: #323743FF;
+    /* neutral-700 */
+}
+
 /* Text 13887 */
 .text13887 {
     position: absolute;
@@ -78,7 +91,7 @@ body {
 .sunny1 {
     position: absolute;
     top: 335px;
-    left: 700px;
+    left: 750px;
     width: 48px;
     height: 48px;
     fill: #008000;
@@ -138,14 +151,14 @@ body {
 
 .textbox703 {
     position: absolute;
-    top: 310px;
+    top: 260px;
     left: 66px;
     opacity: 1;
 }
 
 .textbox702 {
     position: absolute;
-    top: 380px;
+    top: 340px;
     left: 66px;
     opacity: 1;
 }
@@ -190,7 +203,7 @@ body {
 /* Textbox 704 */
 .textbox704 {
     position: absolute;
-    top: 230px;
+    top: 170px;
     left: 66px;
     opacity: 1;
 }

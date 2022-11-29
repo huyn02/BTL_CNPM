@@ -9,6 +9,7 @@ function show_password() {
         password.type = "password";
     }
 }
+
 function notice() {
     alert("Coming Soon !");
 }
