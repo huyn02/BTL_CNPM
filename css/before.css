@@ -2,13 +2,14 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("../image/background.jpg");
 }
 
 .page {
-    margin-left: 210px;
+    margin-left: 250px;
     padding: 0;
-    width: 1500px;
-    height: 965px;
+    width: 1420px;
+    height: 969px;
     background: #DEE1E6FF;
 }
 
@@ -16,7 +17,7 @@ body {
 .image {
     position: absolute;
     top: 30px;
-    left: 250px;
+    left: 290px;
     width: 200px;
     height: 150px;
     border-radius: 25px;
@@ -161,6 +162,19 @@ body {
     top: 340px;
     left: 66px;
     opacity: 1;
+}
+
+.fp {
+    top: 380px;
+    left: 300px;
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-style: italic;
 }
 
 .textbox705 input {
@@ -536,6 +550,18 @@ body {
     position: absolute;
     top: 150px;
     left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Body */
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    /* neutral-700 */
+}
+
+.text13838 {
+    position: absolute;
+    top: 150px;
+    left: 55px;
     font-family: Arial, Helvetica, sans-serif;
     /* Body */
     font-size: 18px;

@@ -1,0 +1,127 @@
+.search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #dedede;
+    border-radius: 25px;
+}
+
+.text709 {
+    width: 220px;
+    height: 40px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.text709:focus {
+    border: none;
+}
+
+.bt_s {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 60px;
+    height: 54px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #008000;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+
+/* Container 5287 */
+.chatlist {
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #dedede;
+    border-right: 2px solid #dedede;
+}
+
+.chatlist:hover {
+    background-color: #dedede;
+}
+
+.user-img {
+    margin: 10px 0 0 45px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.user-chat {
+    position: absolute;
+    top: 6px;
+    left: 120px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-img {
+    margin: 20px 0 0 45px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.header-user {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.phone {
+    position: absolute;
+    top: 25px;
+    right: 130px;
+    font-size: 20px;
+    color: #008000;
+    border: 1px solid #008000;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+}
+
+.phone:hover {
+    background-color: #008000;
+    color: white;
+}
+
+.delete {
+    position: absolute;
+    top: 25px;
+    right: 70px;
+    font-size: 20px;
+    color: red;
+    border: 1px solid red;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+}
+
+.delete:hover {
+    background-color: red;
+    color: white;
+}
+
+.header-chat {
+    position: absolute;
+    width: 700px;
+    height: 80px;
+    background-color: #dedede;
+    top: 90px;
+    left: 320px;
+}
