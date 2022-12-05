@@ -20,7 +20,7 @@ body {
     /* top: 0px;
     left: 250px; */
     width: 280px;
-    height: 969px;
+    height: 1320px;
     background: #DEE1E6FF;
 }
 
@@ -78,9 +78,9 @@ body {
 
 /* Container 5266 */
 .container5266 {
-    position: absolute;
+    position: fixed;
     top: 540px;
-    left: 35px;
+    left: 342px;
     width: 204px;
     height: 300px;
     background: #F2F5FDFF;
