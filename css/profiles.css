@@ -1,0 +1,23 @@
+/* Text 17160 */
+.text17160 {
+    position: relative; 
+    top: 18px; 
+    /* left: 122px;  */
+    font-family: Nunito Sans; /* Body */
+    font-size: 32px; 
+    line-height: 48px; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+/* Image 2345 */
+.image2345 {
+    position: relative; 
+    /* top: 100px;  */
+    left: 16px; 
+    width: 199px; 
+    height: 195px; 
+    border-radius: 98px; 
+  }
+
+  .avatar {
+    margin-left: 1em;
+  }
