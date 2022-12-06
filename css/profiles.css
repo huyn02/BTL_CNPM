@@ -393,7 +393,7 @@
   top: 75px; 
   left: 600px; 
   width: 400px; 
-  height: 1020px;  
+  height: 900px;  
   background: #FFFFFFFF; /* white */
   border-radius: 0px; 
   box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; /* shadow-xs */
@@ -494,4 +494,247 @@
   font-size: 32px; 
   line-height: 48px; 
   color: #008000; /* neutral-900 */
+}
+.profiles-list {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 220px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profiles-list ul a {
+  display: block;
+  line-height: 65px;
+  font-size: 25px;
+  width: 300px;
+  margin-left: -50px;
+  padding-left: 0px;
+  color: #008000;
+}
+
+.profiles-list ul a i {
+  margin-right: 10px;
+}
+
+.profiles-list ul a.selected {
+  color: white;
+  background-color: #008000;
+  padding-right: 5px;
+}
+
+.profiles-list ul a.not-selected {
+  color: #008000;
+}
+
+.profiles-list ul li:hover a {
+  color: white;
+  background-color: #008000;
+  padding-right: 5px;
+}
+/* Image 2346 */
+.o-avatar {
+  position: relative;
+  margin: 10px 0 0 45px;
+  top: 8px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+/* Button 2548 */
+.create-button {
+  position: absolute; 
+  top: 1000px; 
+  left: 600px; 
+  width: 200px; 
+  height: 51px; 
+  padding: 0 24px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Nunito Sans; /* Body */
+  font-size: 18px; 
+  line-height: 28px; 
+  color: #008000; /* danger-500 */
+  background: #FFFFFFFF; /* white */
+  opacity: 1; 
+  border: 1px solid #008000; 
+  border-radius: 6px; /* border-m */
+  gap: 10px; 
+}
+.create-button .icon {
+  width: 24px; 
+  height: 24px; 
+  fill: #008000; /* danger-500 */
+}
+/* Hover */
+.create-button:hover {
+  color: #008000; /* danger-600 */
+  background: #FFFFFFFF; /* white */
+}
+/* Pressed */
+.create-button:hover:active {
+  color: #008000; /* danger-650 */
+  background: #FFFFFFFF; /* white */
+}
+/* Disabled */
+.create-button:disabled {
+  opacity: 0.4; 
+}
+
+/* Button 2548 */
+.signout-button {
+  position: absolute; 
+  top: 1000px; 
+  left: 838px; 
+  width: 164px; 
+  height: 51px; 
+  padding: 0 24px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Nunito Sans; /* Body */
+  font-size: 18px; 
+  line-height: 28px; 
+  color: #008000; /* danger-500 */
+  background: #FFFFFFFF; /* white */
+  opacity: 1; 
+  border: 1px solid #008000; 
+  border-radius: 6px; /* border-m */
+  gap: 10px; 
+}
+.signout-button .icon {
+  width: 24px; 
+  height: 24px; 
+  fill: #008000; /* danger-500 */
+}
+/* Hover */
+.signout-button:hover {
+  color: #008000; /* danger-600 */
+  background: #FFFFFFFF; /* white */
+}
+/* Pressed */
+.signout-button:hover:active {
+  color: #008000; /* danger-650 */
+  background: #FFFFFFFF; /* white */
+}
+/* Disabled */
+.signout-button:disabled {
+  opacity: 0.4; 
+}
+
+.text13838 {
+  position: absolute;
+  top: 150px;
+  left: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* Body */
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #008000;
+  /* neutral-700 */
+}
+
+/* Text 17159 */
+.text17159 {
+  position: absolute; 
+  top: 870px; 
+  left: 15px; 
+  font-family: Nunito Sans; /* Body */
+  font-size: 18px; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+/* Button 2545 */
+.lbutton {
+  position: absolute; 
+  top: 866px; 
+  left: 283px; 
+  height: 34px; 
+  padding: 0 10px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  font-size: 18px; 
+  color: #424856FF; /* neutral-650 */
+  background: #00000000; /* transparent */
+  opacity: 1; 
+  border: none; 
+  border-radius: 6px; /* border-m */
+  gap: 8px; 
+}
+.lbutton .icon {
+  width: 16px; 
+  height: 16px; 
+  fill: #424856FF; /* neutral-650 */
+}
+/* Hover */
+.lbutton:hover {
+  color: #424856FF; /* neutral-650 */
+  background: #EAECF0FF; /* neutral-250 */
+}
+/* Pressed */
+.lbutton:hover:active {
+  color: #424856FF; /* neutral-650 */
+  background: #DEE1E6FF; /* neutral-300 */
+}
+/* Disabled */
+.lbutton:disabled {
+  opacity: 0.4; 
+}
+
+/* Button 2545 */
+.rbutton {
+  position: absolute; 
+  top: 866px; 
+  left: 339px; 
+  height: 34px; 
+  padding: 0 10px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 18px;
+  color: #424856FF; /* neutral-650 */
+  background: #00000000; /* transparent */
+  opacity: 1; 
+  border: none; 
+  border-radius: 6px; /* border-m */
+  gap: 8px; 
+}
+.rbutton .icon {
+  width: 16px; 
+  height: 16px; 
+  fill: #424856FF; /* neutral-650 */
+}
+/* Hover */
+.rbutton:hover {
+  color: #424856FF; /* neutral-650 */
+  background: #EAECF0FF; /* neutral-250 */
+}
+/* Pressed */
+.rbutton:hover:active {
+  color: #424856FF; /* neutral-650 */
+  background: #DEE1E6FF; /* neutral-300 */
+}
+/* Disabled */
+.rbutton:disabled {
+  opacity: 0.4; 
+}
+
+/* Text 17161 */
+.text17161 {
+  position: absolute; 
+  top: 870px; 
+  left: 310px; 
+  font-family: Nunito Sans; /* Body */
+  font-size: 18px; 
+  line-height: 26px; 
+  color: #171A1FFF; /* neutral-900 */
 }
