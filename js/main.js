@@ -71,3 +71,6 @@ function selected(id) {
         tasks.className = 'not-selected';
     }
 }
+function notice_exit() {
+    confirm("Do you want to sign out ?"); 
+} 
