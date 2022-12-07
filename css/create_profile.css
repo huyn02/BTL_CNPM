@@ -26,7 +26,7 @@
     border-radius: 98px; 
   }
 /* Container 5339 */
-.container5339 {
+.container5339_1 {
   position: absolute; 
   top: 75px; 
   left: 50px; 
@@ -36,18 +36,18 @@
   border-radius: 8px; /* border-l */
   box-shadow: 0px 4px 9px #171a1f, 0px 0px 2px #171a1f; /* shadow-m */
 }
-  .avatar {
+  .avatar1 {
     margin-left: 1em;
   }
 
   /* Textbox 711 */
-.namebox {
+.namebox1 {
   position: absolute; 
   top: 321px; 
   left: 61px; 
   opacity: 1; 
 }
-.namebox input {
+.namebox1 input {
   width: 250px; 
   height: 52px; 
   padding-left: 24px; 
@@ -58,36 +58,36 @@
   border-width: 0px; 
   outline: none; 
 }
-.namebox .label {
+.namebox1 .label {
   font-size: 18px; 
   line-height: 28px; 
 }
 /* hover */
-.namebox input:hover {
+.namebox1 input:hover {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
 /* focused */
-.namebox input:focused {
+.namebox1 input:focused {
   color: #171A1FFF; /* neutral-900 */
   background: #FFFFFFFF; /* white */
 }
 /* disabled */
-.namebox input:disabled {
+.namebox1 input:disabled {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
-.namebox :disabled + .icon, .namebox :disabled + .icon + .icon {
+.namebox1 :disabled + .icon, .namebox :disabled + .icon + .icon {
   fill: #171A1FFF; /* neutral-900 */
 }
 /* Textbox 711 */
-.phonebox {
+.phonebox1 {
   position: absolute; 
   top: 417px; 
   left: 61px; 
   opacity: 1; 
 }
-.phonebox input {
+.phonebox1 input {
   width: 250px;  
   height: 52px; 
   padding-left: 24px; 
@@ -98,36 +98,36 @@
   border-width: 0px; 
   outline: none; 
 }
-.phonebox .label {
+.phonebox1 .label {
   font-size: 18px; 
   line-height: 28px; 
 }
 /* hover */
-.phonebox input:hover {
+.phonebox1 input:hover {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
 /* focused */
-.phonebox input:focused {
+.phonebox1 input:focused {
   color: #171A1FFF; /* neutral-900 */
   background: #FFFFFFFF; /* white */
 }
 /* disabled */
-.phonebox input:disabled {
+.phonebox1 input:disabled {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
-.phonebox :disabled + .icon, .phonebox :disabled + .icon + .icon {
+.phonebox1 :disabled + .icon, .phonebox :disabled + .icon + .icon {
   fill: #171A1FFF; /* neutral-900 */
 }
 /* Textbox 711 */
-.emailbox {
+.emailbox1 {
   position: absolute; 
   top: 506px; 
   left: 61px; 
   opacity: 1; 
 }
-.emailbox input {
+.emailbox1 input {
   width: 250px;  
   height: 52px; 
   padding-left: 24px; 
@@ -138,36 +138,36 @@
   border-width: 0px; 
   outline: none; 
 }
-.emailbox .label {
+.emailbox1 .label {
   font-size: 18px; 
   line-height: 28px; 
 }
 /* hover */
-.emailbox input:hover {
+.emailbox1 input:hover {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
 /* focused */
-.emailbox input:focused {
+.emailbox1 input:focused {
   color: #171A1FFF; /* neutral-900 */
   background: #FFFFFFFF; /* white */
 }
 /* disabled */
-.emailbox input:disabled {
+.emailbox1 input:disabled {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
-.emailbox :disabled + .icon, .emailbox :disabled + .icon + .icon {
+.emailbox1 :disabled + .icon, .emailbox :disabled + .icon + .icon {
   fill: #171A1FFF; /* neutral-900 */
 }
 /* Textbox 711 */
-.BDbox {
+.BDbox1 {
   position: absolute; 
   top: 598px; 
   left: 61px; 
   opacity: 1; 
 }
-.BDbox input {
+.BDbox1 input {
   width: 250px;  
   height: 52px; 
   padding-left: 24px; 
@@ -178,36 +178,36 @@
   border-width: 0px; 
   outline: none; 
 }
-.BDbox .label {
+.BDbox1 .label {
   font-size: 18px; 
   line-height: 28px; 
 }
 /* hover */
-.BDbox input:hover {
+.BDbox1 input:hover {
   color: #000000FF; /* black */
   background: #F7F7F7FF; 
 }
 /* focused */
-.BDbox input:focused {
+.BDbox1 input:focused {
   color: #424856FF; /* neutral-650 */
   background: #FFFFFFFF; /* white */
 }
 /* disabled */
-.BDbox input:disabled {
+.BDbox1 input:disabled {
   color: #000000FF; /* black */
   background: #F7F7F7FF; 
 }
-.BDbox :disabled + .icon, .BDbox :disabled + .icon + .icon {
+.BDbox1 :disabled + .icon, .BDbox :disabled + .icon + .icon {
   fill: #000000FF; /* black */
 }
 /* Textbox 712 */
-.Pbox {
+.Pbox1 {
   position: absolute; 
   top: 685px; 
   left: 61px; 
   opacity: 1; 
 }
-.Pbox input {
+.Pbox1 input {
   width: 250px;  
   height: 52px; 
   padding-left: 24px; 
@@ -218,36 +218,36 @@
   border-width: 0px; 
   outline: none; 
 }
-.Pbox .label {
+.Pbox1 .label {
   font-size: 18px; 
   line-height: 28px; 
 }
 /* hover */
-.Pbox input:hover {
+.Pbox1 input:hover {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
 /* focused */
-.Pbox input:focused {
+.Pbox1 input:focused {
   color: #171A1FFF; /* neutral-900 */
   background: #FFFFFFFF; /* white */
 }
 /* disabled */
-.Pbox input:disabled {
+.Pbox1 input:disabled {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
-.Pbox :disabled + .icon, .Pbox :disabled + .icon + .icon {
+.Pbox1 :disabled + .icon, .Pbox :disabled + .icon + .icon {
   fill: #171A1FFF; /* neutral-900 */
 }
 /* Textbox 714 */
-.Addressbox {
+.Addressbox1 {
   position: absolute; 
   top: 772px; 
   left: 61px; 
   opacity: 1; 
 }
-.Addressbox input {
+.Addressbox1 input {
   width: 250px;  
   height: 52px; 
   padding-left: 24px; 
@@ -258,30 +258,30 @@
   border-width: 0px; 
   outline: none; 
 }
-.Addressbox .label {
+.Addressbox1 .label {
   font-size: 18px; 
   line-height: 28px; 
 }
 /* hover */
-.Addressbox input:hover {
+.Addressbox1 input:hover {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
 /* focused */
-.Addressbox input:focused {
+.Addressbox1 input:focused {
   color: #171A1FFF; /* neutral-900 */
   background: #FFFFFFFF; /* white */
 }
 /* disabled */
-.Addressbox input:disabled {
+.Addressbox1 input:disabled {
   color: #171A1FFF; /* neutral-900 */
   background: #F3F4F6FF; /* neutral-200 */
 }
-.Addressbox :disabled + .icon, .Addressbox :disabled + .icon + .icon {
+.Addressbox1 :disabled + .icon, .Addressbox :disabled + .icon + .icon {
   fill: #171A1FFF; /* neutral-900 */
 }
 /* Button 2593 */
-.resetbutton {
+.resetbutton_1 {
   position: absolute; 
   top: 850px; 
   left: 134px; 
@@ -300,21 +300,21 @@
   border-radius: 6px; /* border-m */
 }
 /* Hover */
-.resetbutton:hover {
+.resetbutton_1:hover {
   color: #008000; /* primary-500 */
   background: #FBE6D7FF; /* primary-150 */
 }
 /* Pressed */
-.resetbutton:hover:active {
+.resetbutton_1:hover:active {
   color: #008000; /* primary-500 */
   background: #F9D6BEFF; /* primary-200 */
 }
 /* Disabled */
-.resetbutton:disabled {
+.resetbutton_1:disabled {
   opacity: 0.4; 
 }
 /* Button 2549 */
-.savebutton {
+.savebutton_1 {
   position: absolute; 
   top: 850px; 
   left: 220px; 
@@ -333,16 +333,16 @@
   border-radius: 6px; /* border-m */
 }
 /* Hover */
-.savebutton:hover {
+.savebutton_1:hover {
   color: #FFFFFFFF; /* white */
   background: #008000; /* primary-600 */
 }
 /* Pressed */
-.savebutton:hover:active {
+.savebutton_1:hover:active {
   color: #FFFFFFFF; /* white */
   background: #008000; /* primary-650 */
 }
 /* Disabled */
-.savebutton:disabled {
+.savebutton_1:disabled {
   opacity: 0.4; 
 }
