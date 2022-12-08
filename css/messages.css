@@ -1,127 +1,157 @@
-.search {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 300px;
-    height: 50px;
-    border: 2px solid #dedede;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-mess {
+    height: 80px;
+}
+
+.header-mess .col-sm-3 {
+    background-color: #DEE1E6FF;
+}
+
+.header-mess .col-sm-3:first-child {
+    background-color: #f0f2f5;
+}
+
+.avatar {
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.header-mess .col-sm-3 h4 {
+    line-height: 3;
+}
+
+.col-sm-3 input {
+    width: 170px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid white;
     border-radius: 25px;
 }
 
-.text709 {
-    width: 220px;
-    height: 40px;
-    border: none;
-    margin-top: 5px;
-    margin-left: 15px;
-    font-size: 15px;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+.col-sm-3 input:focus,
+.phone:focus,
+.trash:focus,
+.inputchat input:focus,
+.sent:focus {
     outline: none;
 }
 
-.text709:focus {
-    border: none;
-}
-
-.bt_s {
-    position: absolute;
-    top: -2px;
-    right: -2px;
-    width: 60px;
-    height: 54px;
-    border: none;
-    font-size: 18px;
-    color: white;
-    background-color: #008000;
-    border-radius: 0 25px 25px 0;
-    cursor: pointer;
-}
-
-/* Container 5287 */
-.chatlist {
-    position: relative;
-    display: block;
-    width: 320px;
-    height: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 2px solid #dedede;
-    border-right: 2px solid #dedede;
-}
-
-.chatlist:hover {
-    background-color: #dedede;
-}
-
-.user-img {
-    margin: 10px 0 0 45px;
-    width: 40px;
-    height: 40px;
-    border-radius: 25px;
-}
-
-.user-chat {
-    position: absolute;
-    top: 6px;
-    left: 120px;
-    letter-spacing: 1px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.header-img {
-    margin: 20px 0 0 45px;
-    width: 40px;
-    height: 40px;
-    border-radius: 25px;
-}
-
-.header-user {
-    position: absolute;
-    top: 10px;
-    left: 130px;
-    letter-spacing: 1px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .phone {
-    position: absolute;
-    top: 25px;
-    right: 130px;
-    font-size: 20px;
-    color: #008000;
-    border: 1px solid #008000;
-    padding: 5px 10px 5px 10px;
+    margin: 20px 25px 0 0;
+    height: 40px;
+    color: green;
+    padding: 5px 0 0 10px;
+    border: 1px solid green;
     border-radius: 25px;
 }
 
 .phone:hover {
-    background-color: #008000;
     color: white;
+    background-color: green;
 }
 
-.delete {
-    position: absolute;
-    top: 25px;
-    right: 70px;
-    font-size: 20px;
+.trash:hover {
+    color: white;
+    background-color: red;
+}
+
+.trash {
+    margin: 20px 25px 0 0;
+    height: 40px;
+    border: none;
     color: red;
+    padding: 3px 0 0 10px;
     border: 1px solid red;
-    padding: 5px 10px 5px 10px;
     border-radius: 25px;
 }
 
-.delete:hover {
-    background-color: red;
-    color: white;
+.main-mess {
+    height: 600px;
 }
 
-.header-chat {
-    position: absolute;
-    width: 700px;
+.list1 {
+    cursor: pointer;
+    border-right: 1px solid gray;
+}
+
+.list {
+    margin-left: 20px;
+    line-height: 3.5;
+    height: 60px;
+    border-bottom: 1px solid gray;
+}
+
+.chatt h5 {
+    width: auto;
+}
+
+.chat {
+    padding-top: 3px;
+    margin-top: 30px;
+    height: 45px;
+    padding-left: 20px;
+    border: 1px solid green;
+    border-radius: 25px;
+    color: white;
+    background-color: green;
+}
+
+.avatar1 {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.boxchat {
+    background-color: white;
+    height: 550px;
+}
+
+.inputchat {
     height: 80px;
-    background-color: #dedede;
-    top: 90px;
-    left: 320px;
+}
+
+.inputchat input {
+    cursor: default;
+    color: black;
+    background-color: #DEE1E6FF;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 50px;
+    width: 360px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.icon-mess {
+    text-align: center;
+    line-height: 4;
+    color: green;
+    padding: 15px;
+}
+
+.icon-mess i:hover {
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px hidden green;
+    border-radius: 25px;
+}
+
+.sent {
+    padding: 35px 0 0 30px;
+    border: none;
+    color: green;
+}
+
+.sent i {
+    font-size: 25px;
 }

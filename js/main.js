@@ -3,7 +3,10 @@ function notice() {
 }
 
 function sign_out() {
-    confirm("Do you want to sign out ?");
+    var sign_out = confirm("Do you want to sign out ?");
+    if (sign_out) {
+        location.href = "sign_in.html";
+    }
 }
 
 function selected(id) {
@@ -25,7 +28,7 @@ function selected(id) {
         tttasks.className = 'text16918 show';
         ttmess.className = 'not-show';
         ttpro.className = 'not-show';
-        tasks_m.style.display = 'block';
+        tasks_m.style.display = 'flex';
         messages_m.style.display = 'none';
         profiles_m.style.display = 'none';
         id_item.className = 'selected';
@@ -36,7 +39,7 @@ function selected(id) {
         tttasks.className = 'not-show';
         ttmess.className = 'text16918 show';
         ttpro.className = 'not-show';
-        messages_m.style.display = 'block';
+        messages_m.style.display = 'flex';
         tasks_m.style.display = 'none';
         profiles_m.style.display = 'none';
         id_item.className = 'selected';
@@ -47,7 +50,7 @@ function selected(id) {
         tttasks.className = 'not-show';
         ttmess.className = 'not-show';
         ttpro.className = 'text16918 show';
-        profiles_m.style.display = 'block';
+        profiles_m.style.display = 'flex';
         messages_m.style.display = 'none';
         tasks_m.style.display = 'none';
         id_item.className = 'selected';
