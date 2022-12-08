@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="../css/create_profile.css">
+    <header>
+        <link rel="stylesheet" href="../css/create_profiles.css">
         <script src="../js/main.js"></script>
         <title> Profiles</title>
-    </head>
+    </header>
     <body>
-        <h1 class="createprofile"> CREATE NEW PROFILE </h1> 
+        <h1 class="createprofile"> EDIT MY PROFILE </h1> 
         <h1 class="otherprofile"> OTHER PROFILES </h1> 
         <div class="container5339_1">
             <div class="avatar">
-                <h1 class="text17160"> NGUYEN VAN C </h1> 
-                <img src="../image/avatar.jpg" class="image2345_1" alt="">
+                <h1 class="text17160">  </h1> 
+                <img src="../image/user_img.jpg" class="image2345_1" alt="">
             </div>
             <div class="namebox1">
                 <label for="namebox1">Name</label>
-                <input type="text" id="namebox" name="namebox" placeholder="Fill the full name" > 
+                <input type="text" id="namebox" name="namebox" placeholder="NGUYEN VAN C" > 
             </div>
             <div class="phonebox1">
                 <label for="phonebox1">Phone</label>
-                <input type="text" id="phonebox" name="phonebox" placeholder="Fill the phone number" > 
+                <input type="text" id="phonebox" name="phonebox" placeholder="09xxxxxxxxx" > 
             </div>
             <div class="emailbox1">
                 <label for="emailbox1">Email</label>
-                <input type="text" id="emailbox" name="emailbox" placeholder="Fill the email" > 
+                <input type="text" id="emailbox" name="emailbox" placeholder="NguyenVanA@gmail.com" > 
             </div>
             <div class="BDbox1">
                 <label for="BDbox1">Birthday</label>
-                <input type="text" id="BDbox" name="BDbox" placeholder="Fill the birthday" > 
+                <input type="text" id="BDbox" name="BDbox" placeholder="01/01/2001" > 
             </div>
             <div class="Pbox1">
                 <label for="Pbox1">Position</label>
-                <input type="text" id="Pbox" name="Pbox" placeholder="Fill the current position" > 
+                <input type="text" id="Pbox" name="Pbox" placeholder="Manager" > 
             </div>
             <div class="Addressbox1">
                 <label for="Addressbox1">Address</label>
-                <input type="text" id="Addressbox" name="Addressbox" placeholder="Fill the address" > 
+                <input type="text" id="Addressbox" name="Addressbox" placeholder="123/abc, TP.HCM,  VietNam" > 
             </div>
             <button class="resetbutton_1" >Reset</button>
-            <button class="savebutton_1" >Create profile</button>
+            <button class="savebutton_1" ><a onclick="selected('profiles');" class="text13837">Save changes</a></button>
         </div>
         <div class="container5340">
             <div class="searchbox">
@@ -75,19 +75,19 @@
                         <img src="../image/user_img.jpg" class="o-avatar" alt="">
                         Nguyen Van C</a>
                     </li>
-                    <li><a  class="not-selected" id="profile1" href="#">
+                    <li><a class="not-selected" id="profile1" href="#">
                         <img src="../image/user_img.jpg" class="o-avatar" alt="">
                         Nguyen Van C</a>
                     </li>
-                    <li><a  class="not-selected" id="profile1" href="#">
+                    <li><a class="not-selected" id="profile1" href="#">
                         <img src="../image/user_img.jpg" class="o-avatar" alt="">
                         Nguyen Van C</a>
                     </li>
-                    <li><a  class="not-selected" id="profile1" href="#">
+                    <li><a class="not-selected" id="profile1" href="#">
                         <img src="../image/user_img.jpg" class="o-avatar" alt="">
                         Nguyen Van C</a>
                     </li>
-                    <li><a  class="not-selected" id="profile1" href="#">
+                    <li><a class="not-selected" id="profile1" href="#">
                         <img src="../image/user_img.jpg" class="o-avatar" alt="">
                         Nguyen Van C</a>
                     </li>
@@ -98,8 +98,11 @@
             <a class="text17161">1 &#47 1</a>
             <button class="rbutton"> &#62 </button>
         </div>
-        <button class="my-profile-button">
-            <a onclick="selected('profiles');" class="text13837">My profile</a>
+        <button class="create-button">
+            <a onclick="selected('create_profile');" class="text13837">Create new profile</a>
+        </button>
+        <button class="signout-button">
+            <a onclick="notice_exit()" class="text13837" href="sign_in.html">Sign out &#8594</a>
         </button>
     </body>
 </html>
