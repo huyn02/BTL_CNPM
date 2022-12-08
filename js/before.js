@@ -13,3 +13,6 @@ function show_password() {
 function notice() {
     alert("Coming Soon !");
 }
+function gotomain() {
+    location.href = "main.html";
+}
