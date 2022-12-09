@@ -14,14 +14,19 @@ function notice() {
     alert("Coming Soon !");
 }
 
-function check_user() {
-    if (document.getElementById("email").value == "admin@hcmut.edu.vn" && document.getElementById("password").value == "password")
+function check_user() 
+{
+    location.href = "main.html";
+    var em = document.getElementById("email").value;
+    var p = document.getElementById("password").value;
+    if ( em == "admin@hcmut.edu.vn" &&  p == "password")
     {
-        alert( "validation succeeded" );
+        alert( "validation succeed" );
+        // location.href = "main.html";
     }
     else 
     {
-        alert( "validation failed" );
+         alert( "validation failed" );
     }
 }
 function gotomain() {
