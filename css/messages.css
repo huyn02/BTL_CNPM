@@ -125,3 +125,243 @@
     top: 90px;
     left: 320px;
 }
+
+/* Container 5281 */
+.container5281 {
+    position: absolute; 
+    top: 420px; 
+    left: 321px; 
+    width: 691px; 
+    height: 91px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 0px; 
+    border-width: 1px; 
+    border-color: #BDC1CAFF; /* neutral-400 */
+    border-style: solid; 
+    box-shadow: 0px 4px 9px #171a1f, 0px 0px 2px #171a1f; /* shadow-m */
+  }
+/* Button 2454 */
+.addbutton {
+    position: absolute; 
+    top: 24px; 
+    left: 5px; 
+    height: 52px; 
+    padding: 0 14px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #EB7623FF; /* primary-500 */
+    background: #00000000; /* transparent */
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px; /* border-m */
+    gap: 10px; 
+  }
+  .addbutton .icon {
+    width: 24px; 
+    height: 24px; 
+    fill: #EB7623FF; /* primary-500 */
+  }
+  /* Hover */
+  .addbutton:hover {
+    color: #EB7623FF; /* primary-500 */
+    background: #FBE6D7FF; /* primary-150 */
+  }
+  /* Pressed */
+  .addbutton:hover:active {
+    color: #EB7623FF; /* primary-500 */
+    background: #F9D6BEFF; /* primary-200 */
+  }
+  /* Disabled */
+  .addbutton:disabled {
+    opacity: 0.4; 
+  }
+/* Button 2454 */
+.pbutton {
+    position: absolute; 
+    top: 24px; 
+    left: 70px; 
+    height: 52px; 
+    padding: 0 14px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #EB7623FF; /* primary-500 */
+    background: #00000000; /* transparent */
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px; /* border-m */
+    gap: 10px; 
+  }
+  .pbutton .icon {
+    width: 24px; 
+    height: 24px; 
+    fill: #EB7623FF; /* primary-500 */
+  }
+  /* Hover */
+  .pbutton:hover {
+    color: #EB7623FF; /* primary-500 */
+    background: #FBE6D7FF; /* primary-150 */
+  }
+  /* Pressed */
+  .pbutton:hover:active {
+    color: #EB7623FF; /* primary-500 */
+    background: #F9D6BEFF; /* primary-200 */
+  }
+  /* Disabled */
+  .pbutton:disabled {
+    opacity: 0.4; 
+  }
+/* Button 2454 */
+.kbutton {
+    position: absolute; 
+    top: 24px; 
+    left: 139px; 
+    height: 52px; 
+    padding: 0 14px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #EB7623FF; /* primary-500 */
+    background: #00000000; /* transparent */
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px; /* border-m */
+    gap: 10px; 
+  }
+  .kbutton .icon {
+    width: 24px; 
+    height: 24px; 
+    fill: #EB7623FF; /* primary-500 */
+  }
+  /* Hover */
+  .kbutton:hover {
+    color: #EB7623FF; /* primary-500 */
+    background: #FBE6D7FF; /* primary-150 */
+  }
+  /* Pressed */
+  .kbutton:hover:active {
+    color: #EB7623FF; /* primary-500 */
+    background: #F9D6BEFF; /* primary-200 */
+  }
+  /* Disabled */
+  .kbutton:disabled {
+    opacity: 0.4; 
+  }
+/* Textbox 708 */
+.textchatbox {
+    position: absolute; 
+    top: 24px; 
+    left: 196px; 
+    opacity: 1; 
+  }
+  .textchatbox input {
+    width: 380px; 
+    height: 52px; 
+    padding-left: 24px; 
+    padding-right: 58px; 
+    font-family: Nunito Sans; /* Body */
+    font-size: 18px; 
+    background: #F3F4F6FF; /* neutral-200 */
+    border-radius: 26px; 
+    border-width: 0px; 
+    outline: none; 
+  }
+  .textchatbox svg {
+    position: absolute; 
+    top: 24px; 
+    right: 24px; 
+    width: 24px; 
+    height: 24px; 
+    fill: #EB7623FF; /* primary-500 */
+  }
+  /* hover */
+  .textchatbox input:hover {
+    color: #BDC1CAFF; /* neutral-400 */
+    background: #F3F4F6FF; /* neutral-200 */
+  }
+  /* focused */
+  .textchatbox input:focused {
+    color: #BDC1CAFF; /* neutral-400 */
+    background: #FFFFFFFF; /* white */
+  }
+  /* disabled */
+  .textchatbox input:disabled {
+    color: #BDC1CAFF; /* neutral-400 */
+    background: #F3F4F6FF; /* neutral-200 */
+  }
+  .textchatbox :disabled + .icon, .textchatbox :disabled + .icon + .icon {
+    fill: #171A1FFF; /* neutral-900 */
+  }
+  .emobutton {
+    position: absolute; 
+    bottom: 10px; 
+    left: 400px; 
+    height: 52px; 
+    padding: 0 14px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #EB7623FF; /* primary-500 */
+    background: #00000000; /* transparent */
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px; /* border-m */
+    gap: 10px; 
+  }
+  .emobutton .icon {
+    width: 24px; 
+    height: 24px; 
+    fill: #EB7623FF; /* primary-500 */
+  }
+  /* Hover */
+  .emobutton:hover {
+    color: #EB7623FF; /* primary-500 */
+    background: #FBE6D7FF; /* primary-150 */
+  }
+  /* Pressed */
+  .emobutton:hover:active {
+    color: #EB7623FF; /* primary-500 */
+    background: #F9D6BEFF; /* primary-200 */
+  }
+  /* Disabled */
+  .emobutton:disabled {
+    opacity: 0.4; 
+  }
+
+/* Button 2454 */
+.sentbutton {
+    position: absolute; 
+    top: 28px; 
+    left: 632px; 
+    height: 52px; 
+    padding: 0 14px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #EB7623FF; /* primary-500 */
+    background: #00000000; /* transparent */
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px; /* border-m */
+    gap: 10px; 
+  }
+  .sentbutton .icon {
+    width: 24px; 
+    height: 24px; 
+    fill: #EB7623FF; /* primary-500 */
+  }
+  /* Hover */
+  .sentbutton:hover {
+    color: #EB7623FF; /* primary-500 */
+    background: #FBE6D7FF; /* primary-150 */
+  }
+  /* Pressed */
+  .sentbutton:hover:active {
+    color: #EB7623FF; /* primary-500 */
+    background: #F9D6BEFF; /* primary-200 */
+  }
+  /* Disabled */
+  .sentbutton:disabled {
+    opacity: 0.4; 
+  }

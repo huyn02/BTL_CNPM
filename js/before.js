@@ -24,3 +24,6 @@ function check_user() {
         alert( "validation failed" );
     }
 }
+function gotomain() {
+    location.href = "main.html";
+}
