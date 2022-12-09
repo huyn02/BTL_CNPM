@@ -13,3 +13,14 @@ function show_password() {
 function notice() {
     alert("Coming Soon !");
 }
+
+function check_user() {
+    if (document.getElementById("email").value == "admin@hcmut.edu.vn" && document.getElementById("password").value == "password")
+    {
+        alert( "validation succeeded" );
+    }
+    else 
+    {
+        alert( "validation failed" );
+    }
+}

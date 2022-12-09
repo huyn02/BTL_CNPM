@@ -1,31 +1,4 @@
-* {
-    list-style: none;
-    text-decoration: none;
-}
-
-body {
-    background-color: mediumseagreen;
-}
-
-/* Container 5265 */
-.container5265 {
-    position: absolute;
-    top: 0px;
-    left: 250px;
-    width: 280px;
-    height: 965px;
-    background: #DEE1E6FF;
-}
-
 /* Image 2342 */
-.image {
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
-}
 .image1{
     position: absolute;
     top: 30px;
@@ -33,77 +6,6 @@ body {
     width: 200px;
     height: 150px;
     border-radius: 25px;
-}
-/* Sidebar menu 50 */
-.sidebar-menu {
-    position: absolute;
-    top: 200px;
-    left: 10px;
-    width: 220px;
-    height: 270px;
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.sidebar-menu ul a {
-    display: block;
-    line-height: 65px;
-    font-size: 15px;
-    width: 210px;
-    margin-left: -50px;
-    padding-left: 65px;
-    color: #008000;
-}
-
-.sidebar-menu ul a i {
-    margin-right: 16px;
-}
-
-.sidebar-menu ul a.selected {
-    color: white;
-    background-color: #008000;
-    padding-right: 5px;
-}
-
-.sidebar-menu ul li:hover a {
-    color: white;
-    background-color: #008000;
-    padding-right: 5px;
-    font-style: italic;
-    font-weight: bold;
-}
-
-/* Container 5266 */
-.container5266 {
-    position: absolute;
-    top: 620px;
-    left: 35px;
-    width: 204px;
-    height: 300px;
-    background: #F2F5FDFF;
-    border-radius: 25px;
-}
-
-/* Image 2341 */
-.image2341 {
-    position: absolute;
-    top: 15px;
-    left: 27px;
-    width: 150px;
-    height: 152px;
-    border-radius: 0px;
-}
-
-/* Text 16916 */
-.text16916 {
-    position: absolute;
-    top: 170px;
-    left: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 30px;
-    color: #008000;
 }
 
 /* Button 2443 */
@@ -130,17 +32,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.main {
-    position: absolute;
-    top: 0px;
-    left: 530px;
-    width: 1140px;
-    height: 965px;
-    background-color: white;
-}
 
 /* Text 16918 */
-.text16918 {
+.text16918_1 {
     position: absolute;
     top: 25px;
     left: 80px;
@@ -168,7 +62,8 @@ body {
 .date_time {
     position: absolute;
     top: 25px;
-    right: 80px;
+    left: 700px;
+    /* right: 80px; */
     width: 350px;
     height: 144px;
     font-family: Arial, Helvetica, sans-serif;
@@ -244,13 +139,7 @@ body {
   body, html {
     height: 100%;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "fira-sans-2", Verdana, sans-serif;
-}
+
 #q-graph {
     display: block;
    /* fixes layout wonkiness in FF1.5 */
