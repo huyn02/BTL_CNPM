@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profiles-body {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    height: 695px;
+}
+
+.img-profiles {
+    padding: 0;
+    width: 200px;
+    margin-left: 75px;
+    margin-top: 25px;
+    border-radius: 100px;
+    border: 5px solid lightgreen;
+}
+
+.form-profiles {
+    margin-left: 45px;
+    padding: 10px;
+}
+
+.info {
+    border: 1px solid #DEE1E6FF;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.form-profiles label {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.list-profiles {
+    margin-top: 250px;
+    height: 500px;
+}
+
+.list3 {
+    border-radius: 25px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.list2 {
+    margin-left: 45px;
+    padding: 10px;
+}
+
+.list2 {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}

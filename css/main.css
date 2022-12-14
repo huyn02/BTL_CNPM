@@ -7,8 +7,8 @@
 }
 
 i {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 1px;
+    margin-right: 4px;
 }
 
 body {
@@ -79,7 +79,7 @@ body {
 
 .text17 .bt1,
 .text17 .bt2 {
-    padding-left: 10px;
+    padding-left: 5px;
     height: 30px;
     color: white;
     background-color: #008000;
@@ -153,4 +153,76 @@ body {
 
 .col-sm-6 h6 {
     padding-bottom: 10px;
+}
+
+.modall {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.modall-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modall-body {
+    width: 500px;
+    height: 850px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.img-modall {
+    padding: 0;
+    width: 200px;
+    margin-left: 165px;
+    margin-top: 30px;
+    border-radius: 100px;
+    border: 5px solid lightgreen;
+}
+
+.form {
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 500px;
+    padding: 10px;
+}
+
+.info {
+    border: 1px solid #DEE1E6FF;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.form label {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.form input {
+    width: 45%;
+}
+
+.btn-success {
+    width: 90px;
+    margin-left: 37px;
+}
+
+.btn-secondary {
+    width: 90px;
+    height: 40px;
+    margin-left: 157px;
 }

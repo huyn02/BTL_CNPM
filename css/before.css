@@ -117,7 +117,7 @@ body {
     top: 110px;
     left: 980px;
     width: 500px;
-    height: 700px;
+    height: 650px;
     background: #FFFFFFFF;
     /* white */
     border-radius: 25px;
@@ -343,28 +343,29 @@ body {
     transform: rotate(45deg);
 }
 
+
+
 /* Button 1957 */
 .button1957 {
     position: absolute;
     top: 450px;
     left: 66px;
-    width: 385px;
+    width: 350px;
     height: 44px;
     padding: 0 18px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    /* Body */
     font-size: 16px;
     line-height: 26px;
-    color: #FFFFFFFF;
-    /* white */
-    background: #008000;
-    /* primary-500 */
     opacity: 1;
     border: none;
     border-radius: 6px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #008000;
+    color: white;
 }
 
 /* Hover */

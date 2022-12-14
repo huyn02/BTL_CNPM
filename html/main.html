@@ -11,6 +11,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="../js/messages.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/tasks.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/htmlincludejs"></script>
     <title>UWC 2.0</title>
@@ -49,8 +50,9 @@
                         <span id="ttpro" class="not-show"><i class="fa fa-user"></i> PROFILES</span>
                     </div>
                     <div class="col-sm-6 text17">
-                        <h4 class="username"><i class="fa fa-user-circle"></i> Hi ! USER</h4>
-                        <button class="bt1">My info <i class="fa fa-eye"></i></button>
+                        <h4 class="username"><i class="fa fa-user-circle"></i> Hi ! Dat</h4>
+                        <button type="button" class="bt1" onclick="show_modal()">My info <i
+                                class="fa fa-eye"></i></button>
                         <button class="bt2" onclick="sign_out()"> Sign out <i class="fa fa-sign-out"></i></button>
                     </div>
                 </div>
@@ -102,8 +104,32 @@
             </div>
         </div>
     </div>
-
-
+    <div class="modall" id="modall">
+        <div class="modall-overlay"></div>
+        <div class="modall-body">
+            <div class="modall-inner">
+                <div class="row">
+                    <img src="../image/my_avatar.jpg" class="img-fluid img-modall" alt="">
+                </div>
+                <div class="form">
+                    <label for="">Name</label><br>
+                    <input type="text" class="info" value="Huynh Tan Dat"><br>
+                    <label for="">Email</label><br>
+                    <input type="text" class="info" value="huynhtandat@gmail.com"><br>
+                    <label for="">Position</label><br>
+                    <input type="text" class="info" value="Back-Officer"><br>
+                    <label for="">Phone Number</label><br>
+                    <input type="text" class="info" value="123-456-789"><br>
+                    <label for="">Address</label><br>
+                    <input type="text" class="info" value="777-TPHCM VN"><br>
+                </div>
+                <div class="row">
+                    <button class="btn btn-secondary" onclick="close_modal()">CANCEL</button>
+                    <button class="btn btn-success" onclick="alert('Save Completed !')">SAVE</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
