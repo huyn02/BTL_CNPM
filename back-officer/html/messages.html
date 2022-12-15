@@ -1,0 +1,92 @@
+<head>
+    <link rel="stylesheet" href="../css/messages.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row header-mess">
+            <div class="col-sm-3">
+                <input type="search" placeholder="Search...  ">
+            </div>
+            <div class="col-sm-3">
+                <img src="../image/user_img.jpg" class="avatar" alt="Responsive image">
+            </div>
+            <div class="col-sm-3">
+                <h4>Nguyen Van A</h4>
+            </div>
+            <div class="col-sm-3">
+                <button onclick="notice_call()" class="phone"><i class="fa fa-phone"></i></button>
+                <button onclick="notice_delete()" class="trash"><i class="fa fa-trash"></i></button>
+            </div>
+        </div>
+        <div class="row main-mess">
+            <div class="col-sm-3 list1">
+                <div class="row list">
+                    <div class="list">
+                        <img src="../image/user_img.jpg" class="avatar1" alt="">
+                        <span>Nguyen Van A</span>
+                    </div>
+                </div>
+                <div class="row list">
+                    <div class="list">
+                        <img src="../image/user_img.jpg" class="avatar1" alt="">
+                        <span>User name</span>
+                    </div>
+                </div>
+                <div class="row list">
+                    <div class="list">
+                        <img src="../image/user_img.jpg" class="avatar1" alt="">
+                        <span>User name</span>
+                    </div>
+                </div>
+                <div class="row list">
+                    <div class="list">
+                        <img src="../image/user_img.jpg" class="avatar1" alt="">
+                        <span>User name</span>
+                    </div>
+                </div>
+                <div class="row list">
+                    <div class="list">
+                        <img src="../image/user_img.jpg" class="avatar1" alt="">
+                        <span>User name</span>
+                    </div>
+                </div>
+                <div class="row list">
+                    <div class="list">
+                        <img src="../image/user_img.jpg" class="avatar1" alt="">
+                        <span>User name</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="row boxchat">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6">
+                        <div class="chatt" id="boxchat"></div>
+                    </div>
+                </div>
+                <div class="row inputchat">
+                    <div class="col-sm-3 icon-mess">
+                        <i class="fa fa-microphone"></i>
+                        <i class="fa fa-camera"></i>
+                        <i class="fa fa-smile-o"></i>
+                    </div>
+                    <div class="col-sm-7">
+                        <input type="text" placeholder="Write messages here..." id="content">
+                    </div>
+                    <div class="col-sm-2">
+                        <button class="sent" type="submit">
+                            <i onclick="sent()" class='bx bxs-send'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
